@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.healthtracker.Test"
+    android:background="@color/Black"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/z10"
+        />
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@color/Black"
+        android:text="YES"/>
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@color/Black"
+        android:text="NO"/>
+    <Button
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@color/Black"
+        android:text="score"/>
+<ScrollView
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="350sp"
+    android:layout_below="@id/score"
+    android:layout_marginTop="40sp"
+    android:layout_marginBottom="40sp"
+    android:background="@color/lightSalmon"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/z1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="1.Is your BMI in Normal Range , i.e. neither underweight nor overweight?"
+        />
+    <TextView
+        android:id="@+id/z2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z1"
+        android:text="2.Is your blood pressure and blood sugar level normal?"
+        />
+    <TextView
+        android:id="@+id/z3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z2"
+        android:text="3.Do you have a social network? Do you have friends and relatives?"
+        />
+    <TextView
+        android:id="@+id/z4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z3"
+        android:text="4.Do you like to be social i.e. like to meet friends and relatives on special occasions or as frequent as possible?"
+        />
+    <TextView
+        android:id="@+id/z5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="5.Is your caffine intake (on daily basis) less than or equal to twice in a day?"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z4"
+
+        />
+    <TextView
+        android:id="@+id/z6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="6.Does your routine include any type of meditations atleast once a week?"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z5"
+
+        />
+    <TextView
+        android:id="@+id/z7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="7.Do you exercise or yoga atleast five times a week?"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z6"
+
+        />
+    <TextView
+        android:id="@+id/z8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="8.Do you choose boiled and baked over roasted and fried?"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z7"
+
+        />
+    <TextView
+        android:id="@+id/z9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="9.Are you moving towards a healthy lifetyle by consuming green vegies?"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/z8"
+        />
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

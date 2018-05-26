@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/SeaGreen"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.healthtracker.List">
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="40sp"
+        android:layout_marginTop="20sp"
+        android:text="List of some hospitals and doctors in NCR region:"
+        />
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a1"
+        android:layout_marginTop="20sp"
+        android:text="Fortis ft Rajan Dhall Hospital, Vasant Kunj"
+        />
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a2"
+        android:layout_marginTop="10sp"
+        android:text="New Delhi, Delhi ,
+Phone no. - 011 4277 6222"
+        />
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a3"
+        android:layout_marginTop="20sp"
+        android:text="Sir Ganga Ram Hospital"
+        />
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a4"
+        android:layout_marginTop="10sp"
+        android:text="New Delhi, Delhi ,
+Phone no. - 011 2575 0000"
+        />
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a5"
+        android:layout_marginTop="20sp"
+        android:text="Dr. Bandhna Sodhi(Best Gynaecologist)"
+        />
+    <TextView
+        android:id="@+id/a7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a6"
+        android:layout_marginTop="10sp"
+        android:text="New Delhi, Delhi ,
+Phone no. - 097110 88800"
+        />
+    <TextView
+        android:id="@+id/a8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a7"
+        android:layout_marginTop="20sp"
+        android:text="Best Pediatrician(Child Specialist)"
+        />
+    <TextView
+        android:id="@+id/a9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a8"
+        android:layout_marginTop="10sp"
+        android:text="New Delhi, Delhi ,
+Phone no. - 011 2541 3214"
+        />
+    <TextView
+        android:id="@+id/a10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a9"
+        android:layout_marginTop="20sp"
+        android:text="Dr. Vivek Kumar (Best Cardiologist)"
+        />
+    <TextView
+        android:id="@+id/a11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a10"
+        android:layout_marginTop="10sp"
+        android:text="New Delhi, Delhi ,
+Phone no. - 099114 96648"
+        />
+    <TextView
+        android:id="@+id/a12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a11"
+        android:layout_marginTop="20sp"
+        android:text="Dr. Mukul Verma (Best Neurologist)"
+        />
+    <TextView
+        android:id="@+id/a13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a12"
+        android:layout_marginTop="10sp"
+        android:text="New Delhi, Delhi ,
+Phone no. - 098994 53074"
+        />
+    <TextView
+        android:id="@+id/a14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:layout_below="@+id/a13"
+        android:layout_marginTop="20sp"
+        android:text="Sarvodaya Hospital"
+        />
+    <TextView
+        android:id="@+id/a15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_below="@+id/a14"
+        android:layout_marginTop="10sp"
+        android:text="YMCA road, sector-8, faridabad, NCR ,
+
+Phone no. - 0129 418 4444"
+        />
+
+</RelativeLayout>
+</ScrollView>

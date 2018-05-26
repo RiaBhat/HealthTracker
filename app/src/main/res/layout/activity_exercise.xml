@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/lightGreen"
+
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.healthtracker.Exercise"
+    >
+    <TextView
+        android:id="@+id/wt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30sp"
+        android:textSize="40sp"
+        android:textColor="@color/Black"
+        android:text="10 Best Exercises to Loose Weight:"
+        />
+    <TextView
+        android:id="@+id/ways"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wt"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="1. LUNGES:"
+        />
+    <TextView
+        android:id="@+id/ways1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:text="There are many variations to the lunge, but the plain jane forward lunge is still very effective for weight loss, as it works multiple muscles at once (think: glutes, quads, and hamstrings) for max calorie burn. Get ready to move those short-shorts to the front of your closet.
+
+
+
+
+Stand tall with feet hip-width apart. Place hands on your hips or hold weights, and take a controlled step forward with your right leg.
+Keeping your spine tall, lower your body until your front leg and back leg form a 90-degree angle.
+Pause, then bring your right leg home to start.
+Now do the other side by stepping forward with your left leg.
+Repeat 10 times on each side. Do a total of 3 sets.
+"
+        />
+    <TextView
+        android:id="@+id/ways2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways1"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="2. BURPEES :"
+        />
+    <TextView
+        android:id="@+id/ways3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways2"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="This exercise effectively targets your core, chest, and legs simultaneously. Feel the burn and know you're building lots of lean muscle.
+
+
+
+
+Stand with your feet shoulder-width apart and arms at your sides. Push your hips back, knees bent, and lower into a squat.
+Place your hands on the floor directly in front of you and shift your weight to them. Jump back softly to land on your feet in the plank position.
+Jump your feet forward so they land just outside of your hands. Reach your hands up and jump explosively into the air.
+Immediately lower back into a squat for the next rep. Repeat 8 to 12 times. Complete 3 sets.
+"
+        />
+    <TextView
+        android:id="@+id/ways4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways3"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="3. EXPLOSIVE LUNGES :"
+        />
+    <TextView
+        android:id="@+id/ways5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways4"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="High-intensity workouts like this explosive lunge will get you sweating and torch major calories.
+
+
+Start with your feet together, hands on your hips. Step forward with your right leg.
+Bend until your right leg is at a 90-degree angle. Jump up, switch your legs in midair, and end with the left leg lunged forward.
+Repeat the lunges, switching sides for 1 minute. Complete 3 sets.
+"
+        />
+    <TextView
+        android:id="@+id/ways6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways5"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="4. SQUATS :"
+        />
+    <TextView
+        android:id="@+id/ways7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways6"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Squats are one of the best exercises for weight loss. When you do them correctly, you engage your core and entire lower body.
+
+
+Start with feet hip-width apart, arms either at your sides or holding weights. Keeping your weight in your heels, begin lowering your legs and raising your arms in front of you.
+Keeping your back straight, lower until your thighs are parallel to the floor. Remember to keep your knees in line with your toes the entire time.
+Maintain an even pace and rise back to a standing position. Repeat 3 sets of 15 reps.
+"
+        />
+    <TextView
+        android:id="@+id/ways8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways7"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="5. DOUBLE JUMPS :"
+        />
+    <TextView
+        android:id="@+id/ways9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways8"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Take your traditional squats up a notch by incorporating a jump and lunge. The movement will increase your heart rate and you'll feel the burn in your abs, butt, and legs.
+
+
+Lower into a deep squat and rise up as if you're jumping, but land in a lunge position with your right leg back.
+Use momentum to jump from this lunge position back to a squat. Continue for 45 seconds, alternating legs. Do two sets total.
+"
+        />
+    <TextView
+        android:id="@+id/ways10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways9"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="6. MOUNTAIN CLIMBERS :"
+        />
+    <TextView
+        android:id="@+id/ways11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways10"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Whether you use resistance bands or not, mountain climbers are an excellent way to burn calories. The quick leg motion targets obliques, butt, and hamstrings.
+
+
+Loop center of band around a stable post like a couch leg. Start on floor in plank position facing away from post, feet placed in handles like stirrups.
+Alternately bring right and left knee in toward chest, not allowing toes of bent leg to touch floor.
+Repeat for 1 minute and rest 20 seconds. Do 3 sets.
+"
+        />
+    <TextView
+        android:id="@+id/ways12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways11"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="7. TABATA DRILL :"
+        />
+    <TextView
+        android:id="@+id/ways13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways12"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="These intervals may be short—but trust us, you'll appreciate the off intervals.
+
+
+Begin with dumbbells up to your shoulders and feet together.
+The dumbbells jack straight up, until arms are fully extended. At the same time jump your feet outward. Continue with all-out effort for 20 seconds.
+After 10 seconds of rest, place feet shoulder-width apart, dumbbells at your chest.
+Begin jabbing the dumbbells across the body. Switching sides, continue with all-out effort for 20 seconds. After 10 seconds of rest, repeat both exercises for 8 rounds.
+"
+        />
+    <TextView
+        android:id="@+id/ways14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways13"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="8. JUMP ROPE :"
+        />
+    <TextView
+        android:id="@+id/ways15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways14"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Jump rope is more than a middle school gym class activity: It's a total-body toner made for weight loss. Challenge yourself to complete a full minute of jumping—we won't judge if you bust out the '90s jams too.
+
+
+Check the length of your jump rope by holding it in your hands and ensuring the handles line up with your shoulders.
+Start with feet together, hands holding ends of the jump rope, elbows in toward your ribs.
+Swing the jump rope and hop over with feet together. Do not jump in between, just jump with each swing of the rope. Continue jumping for 1 minute. Complete 3 sets.
+"
+        />
+    <TextView
+        android:id="@+id/ways16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways15"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="9. BODY-WEIGHT EXERCISES :"
+        />
+    <TextView
+        android:id="@+id/ways17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways16"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Body-weight exercises get your heart pumping and your muscles activated. Increasing your mucle mass means more calories burned, even when you're not working out.
+
+
+Start with arms at the your side and feet together. Jump feet apart and raise hands into a jumping jack. From there, place hands on the ground, jump feet out and back in. Raise up back into a jumping jack. Continue for 10 reps. Complete 3 sets.
+Stand with legs straight, right hand on your hip and the left leg lifted. Bend and touch your right knee with your left hand. Continue for 10 reps before switching sides. Repeat for 3 sets.
+Get into plank position, with hands on the ground and legs outstretched behind you. Begin driving your knee into the opposite shoulder. Continue switching legs for 45 seconds, repeat for 3 sets.
+"
+        />
+    <TextView
+        android:id="@+id/ways18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways17"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="10. KETTLEBELL SWINGS :"
+        />
+    <TextView
+        android:id="@+id/ways19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways18"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Kettlebells are very effective when used for weight loss because they engage the entire body. Plus, they're low impact yet high intensity—ideal for calorie burn.
+
+
+Stand with feet slightly wider than hip-width apart. Grasp kettlebell with both hands in front of you.
+Engage core and slightly squat. Press hips forward as you stand and swing the kettlebell upward. Lower arms and return to the slight squat position for 1 rep. Complete 3 sets of 15 swings.
+"
+        />
+
+    <TextView
+        android:id="@+id/ways20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways19"
+        android:textSize="40sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/Black"
+        android:text="The 10 Healthiest Foods on the Planet :"
+        />
+    <TextView
+        android:id="@+id/ways21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways20"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="1.LEMONS"
+        />
+    <TextView
+        android:id="@+id/ways22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways21"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="2.BROCCOLI"
+        />
+    <TextView
+        android:id="@+id/ways23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways22"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="3.DARK CHOCLATE"
+        />
+    <TextView
+        android:id="@+id/ways24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways23"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="4. POTATOES"
+        />
+    <TextView
+        android:id="@+id/ways25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways24"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="5. SALMON"
+        />
+    <TextView
+        android:id="@+id/ways26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways25"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="6. WALNUTS"
+        />
+    <TextView
+        android:id="@+id/ways27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways26"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="7. AVOCADOS"
+        />
+    <TextView
+        android:id="@+id/ways28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways27"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="8. GARLIC"
+        />
+    <TextView
+        android:id="@+id/ways29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways28"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="9. SPINACH"
+        />
+    <TextView
+        android:id="@+id/ways30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways29"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="10. BEANS"
+        />
+    <TextView
+        android:id="@+id/ways31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways30"
+        android:textSize="40sp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="MEDITATION"
+        />
+    <TextView
+        android:id="@+id/ways32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways31"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Meditation is an approach to training the mind, similar to the way that fitness is an approach to training the body. But many meditation techniques exist — so how do you learn how to meditate?
+
+“In Buddhist tradition, the word ‘meditation’ is equivalent to a word like ‘sports’ in the U.S. It’s a family of activities, not a single thing,” University of Wisconsin neuroscience lab director Richard J. Davidson, Ph.D., told The New York Times. And different meditation practices require different mental skills.
+
+It’s extremely difficult for a beginner to sit for hours and think of nothing or have an “empty mind.” We have some tools such as a beginner mediation DVD or a brain sensing headband to help you through this process when you are starting out. In general, the easiest way to begin meditating is by focusing on the breath — an example of one of the most common approaches to meditation: concentration."
+        />
+    <TextView
+        android:id="@+id/ways33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways32"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="CONCENTRATION MEDITATION"
+        />
+    <TextView
+        android:id="@+id/ways34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways33"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Concentration meditation involves focusing on a single point. This could entail following the breath, repeating a single word or mantra, staring at a candle flame, listening to a repetitive gong, or counting beads on a mala. Since focusing the mind is challenging, a beginner might meditate for only a few minutes and then work up to longer durations.
+
+In this form of meditation, you simply refocus your awareness on the chosen object of attention each time you notice your mind wandering. Rather than pursuing random thoughts, you simply let them go. Through this process, your ability to concentrate improves"
+        />
+    <TextView
+        android:id="@+id/ways35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways34"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="MINDFULNESS MEDITATION"
+        />
+    <TextView
+        android:id="@+id/ways36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways35"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="Mindfulness meditation encourages the practitioner to observe wandering thoughts as they drift through the mind. The intention is not to get involved with the thoughts or to judge them, but simply to be aware of each mental note as it arises.
+
+Through mindfulness meditation, you can see how your thoughts and feelings tend to move in particular patterns. Over time, you can become more aware of the human tendency to quickly judge an experience as good or bad, pleasant or unpleasant. With practice, an inner balance develops.
+
+In some schools of meditation, students practice a combination of concentration and mindfulness. Many disciplines call for stillness — to a greater or lesser degree, depending on the teacher.
+
+"
+        />
+    <TextView
+        android:id="@+id/ways37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways36"
+        android:textSize="30sp"
+        android:textColor="@color/Black"
+        android:text="BENEFITS OF MEDITATION"
+        />
+    <TextView
+        android:id="@+id/ways38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways37"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="1. Lower blood pressure and Improved blood circulation"
+        />
+    <TextView
+        android:id="@+id/ways39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways38"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="2.Lower heart rate and Less stress"
+        />
+    <TextView
+        android:id="@+id/ways40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways39"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="3. Slower respiratory rate"
+        />
+    <TextView
+        android:id="@+id/ways41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways40"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="4. Less anxiety"
+        />
+    <TextView
+        android:id="@+id/ways42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ways41"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="5. Lower blood cortisol levels"
+        />
+
+</RelativeLayout>
+</ScrollView>

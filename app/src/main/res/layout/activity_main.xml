@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.healthtracker.MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Welcome!!!
+We are happy to have you here. Choose any of the options given to continue towards
+the world of health."
+        />
+
+    <Button
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@id/welcome"
+        android:layout_marginTop="40sp"
+        android:text="check some standards for better checkup"
+        />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@id/account"
+        android:layout_marginTop="40sp"
+        android:text="Get ready for new check up"
+        />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@id/test"
+        android:layout_marginTop="40sp"
+        android:text="List of some Doctors recommended"
+        />
+
+    <Button
+        android:id="@+id/exercise"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_below="@id/list"
+        android:layout_marginTop="40sp"
+        android:text="some healty habbits and exercises to be added to your routtine"
+        />
+</RelativeLayout>
+</ScrollView>
